@@ -295,7 +295,7 @@ public class Mobile {
 		String strValue = args.substring(3, args.length());
 		if (testDriver.getMapValues().get(strValue) == null) {
 			throw new KeywordTraceException(new Throwable(strValue
-					+ " is not set by any keywords==="));
+					+ " is not set by any keywords"));
 		}
 		return testDriver.getMapValues().get(strValue);
 
